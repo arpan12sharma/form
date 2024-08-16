@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+  <form>
+    <div class="main">
+        <div>
+      <h1 id="title">Body Building Consultation</h1>
+        </div>
+        <div>
+          <p id="description">Thank-You for Choosing us for your fitness goals!</p>
+        </div>
+        <label for="name">Name
+          <input required id="name" type="text">
+        </label>
+        <label for="email">Email
+          <input required id="email" type="email">
+        </label>
+        <label for="number">Age(optional)
+          <input id="number" type="number" min="18" max="102">
+        </label>
+        <label for="dropdown">What are your current Goals?
+          <select type="dropdown" name="" id="dropdown">
+          <option value="">Slect and option </option>
+          <option value="1">Bodybuilding</option>
+          <option value="2">Powerlifiting</option>
+          <option value="3">Calisthenics</option>
+          <option value="4">CrossFit</option>
+          <option value="5">Hybrid Training</option>
+        </select>
+      </label>
+        <label for="will">Are you willing to sacrifise?
+          <input class="inline" type="radio" id="will" name="will">Yes
+          <input class="inline" type="radio" name="will" id="will">No
+        </label>
+        <label class="timing" for="">How many days per weak do you exercise?
+          <label for="checkbox">
+            <input class="inline" type="checkbox" id="checkbox" value="checkbox">0 days
+          </label>
+          <label for="checkbox1">
+           <input class="inline" type="checkbox" id="checkbox1" value="checkbox" name="checkbox">1-2 days
+          </label>
+          <label for="checkbox2">
+            <input class="inline" type="checkbox" name="checkbox" id="checkbox2" value="checkbox">3-4 days
+          </label>
+          <label for="checkbox3">
+            <input class="inline" type="checkbox" name="checkbox" id="checkbox3" value="checkbox">5-6 days
+          </label>
+          <label for="checkbox4">
+            <input  class="inline"type="checkbox" name="checkbox" id="checkbox4" value="checkbox">7days
+          </label>
+        </label>
+        <label for="textarea">
+          <textarea name="about" id="textarea" rows="5px" cols="20px" placeholder="Tell us about your eating habits.."></textarea>
+        </label>
+        <label for="submit">
+          <input type="submit" id="submit">
+        </label>
+      </div>
+    </form>
+</body>
+</html>
