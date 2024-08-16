@@ -62,22 +62,3 @@ input[type="submit"]{
     background: transparent;
     color: #C0C0C0;
  }
-/* 
-
-input[type="text"]{
-    background-color: black;
-}
-
-
-label, form{
-    display: block;
-    text-align: center;
-    margin-right:50%;
-}
-input[type="checkbox"]{
-    margin : 1em 0.5em 1em 0em;
-    text-align: center;
-}
-timing{
-    display: inline-block;
-} */
