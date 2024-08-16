@@ -3,6 +3,10 @@ body{
     height: 100vh;
     margin: 0;
     background-image: url("images/fitness_female_body-wallpaper-1366x768.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #C0C0C0;
     font-family: Tohoma;
     font-size: 16px;
